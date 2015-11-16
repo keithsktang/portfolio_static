@@ -1,0 +1,206 @@
+body, html {
+  width: 100%;
+  height: 100%;
+}
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+.navbar-brand {
+  font-family: Arial Black;
+  color: lightgreen;
+  letter-spacing: .8em;
+  /*padding: 2em 0 0 15em;*/
+}
+#K, #T {
+  font-size: 1.7em !important;
+  color: chocolate !important;
+}
+#chars {
+  font-size: ;
+  color: red;
+}
+.topnav {
+  font-size: 14px;
+}
+.lead {
+  font-size: 18px;
+  font-weight: 400;
+}
+.intro-header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /*text-align: center;*/
+  color: #f8f8f8;
+  background: url(../images/cafepic2_rusty.jpg) no-repeat center center;
+  background-size: cover;
+}
+#space-top {
+  height: 12vh;
+}
+.intro-message {
+  margin: 0;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.50);
+  padding: 20% 5% 20% 5%;
+}
+.intro-message > h1 {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 5em;
+}
+.intro-message > p {
+  font-size: 1.2em;
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
+  color: white;
+}
+a.text-link:link {
+  text-decoration: none;
+  color: white;
+}
+a.text-link:visited {
+  text-decoration: none;
+  color: white;
+}
+a.text-link:hover {
+  text-decoration: none;
+  color: lightgray;
+}
+a.text-link:active {
+  text-decoration: none;
+  color: white;
+}
+.wyncode:link {
+  text-decoration: none;
+  color: black;
+}
+a.wyncode:visited {
+  text-decoration: none;
+  color: black;
+}
+a.wyncode:hover {
+  text-decoration: none;
+  color: lightgray;
+}
+a.wyncode:active {
+  text-decoration: none;
+  color: black;
+}
+.intro-divider {
+  width: 30vw;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.intro-message > h3 {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+@media(max-width:767px) {
+  .intro-message {
+    padding-bottom: 15%;
+  }
+  .intro-message > h1 {
+    font-size: 3em;
+  }
+  ul.intro-social-buttons > li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.intro-social-buttons > li:last-child {
+    margin-bottom: 0;
+  }
+  .intro-divider {
+    width: 100%;
+  }
+}
+.network-name {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.content-section-a {
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+.portfolio_section {
+  text-align: center;
+  padding: 50px 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+.section-heading {
+  margin-bottom: 30px;
+}
+.section-heading-spacer {
+  text-align: center;
+  width: 200px;
+  border-top: 3px solid #e7e7e7;
+}
+.banner {
+  padding: 100px 0;
+  color: #f8f8f8;
+  background: url(../images/cafepic_rusty_strip.jpg) no-repeat center center;
+  background-size: cover;
+}
+.banner h2 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 3em;
+}
+.banner ul {
+  margin-bottom: 0;
+}
+.banner-social-buttons {
+  float: right;
+  margin-top: 0;
+}
+@media(max-width:1199px) {
+  ul.banner-social-buttons {
+    float: left;
+    margin-top: 15px;
+  }
+}
+@media(max-width:767px) {
+  .banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em;
+  }
+  ul.banner-social-buttons > li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.banner-social-buttons > li:last-child {
+    margin-bottom: 0;
+  }
+}
+footer {
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+.portfolio_tiles {
+  text-align: center;
+  background-color: #f8f8f8;
+}
+.tile li{
+    display: inline;
+  list-style: none;
+}
+.tile img{
+  max-width: 250px;
+  margin: 0 !important;
+  padding: 0 !important;
+
+}
+.tile img:hover{
+  opacity: 0.50;
+}
+ul.list-inline {
+  text-align: center;
+}
+p.mylife {
+  margin: 15px 0 0;
+  word-spacing: 1em;
+  text-align: center;
+}
