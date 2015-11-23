@@ -1,3 +1,3 @@
 $(document).ready(function() {
-  $(".page-load").fadeOut(1600,"swing");
+  $(".page-load").fadeOut(5000,"swing");
 });
