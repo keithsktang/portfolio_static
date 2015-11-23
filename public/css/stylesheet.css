@@ -1,7 +1,22 @@
+.page-load {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+}
+.page-load img {
+  margin: auto;
+  position: absolute;
+  left: 48%;
+  top: 48%;
+}
 body, html {
   width: 100%;
   height: 100%;
 }
+
 body, h1, h2, h3, h4, h5, h6 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
